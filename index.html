@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl fixed-top  bg-black">
+        <div class="container-fluid container-xl px-5 ">
+          <a class="navbar-brand text-light" href="#">Navbar scroll</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll px-4 me-5">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active  " aria-current="page" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  DropDown
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="nav-link ps-3" href="#">DropDown1</a></li>
+                  <li class="nav-item dropstart" id="dropDown1">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          DeepDropDown
+                        </a>
+                        <ul class="dropdown-menu" >
+                            <li><a class="dropdown-item py-2" href="#">DeepDropDown 1</a></li>
+                            <li><a class="dropdown-item py-2" href="#">DeepDropDown 2</a></li>
+                            <li><a class="dropdown-item py-2" href="#">DeepDropDown 3</a></li>
+                            <li><a class="dropdown-item py-2" href="#">DeepDropDown 4</a></li>
+                            <li><a class="dropdown-item py-2" href="#">DeepDropDown 5</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link ps-3" href="#">DropDown2</a></li>
+                    <li><a class="nav-link ps-3" href="#">DropDown3</a></li>
+                    <li><a class="nav-link ps-3" href="#">DropDown4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" aria-current="page" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+</nav>
+    <header>
+        <div class="header-layer d-flex justify-content-center align-items-center">
+            <div class="header-content">
+                <h1 class="text-light">I am Morgan Freeman</h1>
+            </div>
+        </div>
+    </header>
+    <section id="About" class="py-5">
+        <div class="container bg-light shadow-lg my-5">
+            <div class="row py-4">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row">
+                   <div class="col-lg-6">
+                    <img class="w-100" src="imgs/profile-img.jpg" alt="">
+                   </div>
+                   <div class="col-lg-6">
+                    <ul>
+                        <li class="py-2">
+                        <span class="text-Bold">Name:</span> <span class="text-muted">Morgan Freeman</span>
+                        </li>
+                        <li class="py-2">
+                        <span class="text-Bold">Profile:</span> <span class="text-muted">full stack developer</span>
+                        </li>
+                        <li class="py-2">
+                        <span class="text-Bold">Email:</span> <span class="text-muted">contact@example.com</span>
+                        </li>
+                        <li class="py-2">
+                        <span class="text-Bold">Phone:</span> <span class="text-muted">(617) 557-0089</span>
+                        </li>
+                    </ul>
+                   </div>
+                </div>
+                <h4 class="text-Bold">Skills</h4>
+                <div class="pt-2 ">
+                    <div class="d-flex justify-content-between pb-1">
+                        <h5 class="text-muted">Html</h5>
+                        <p class="p-0 m-0">100%</p>
+                    </div>
+                </div>
+                    <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                      <div class="progress-bar" style="width: 100%"></div>
+                    </div>
+                
+                    <div class="pt-2">
+                    <div class="d-flex justify-content-between pb-1">
+                        <h5 class="text-muted">Css</h5>
+                        <p class="p-0 m-0">90%</p>
+                    </div>
+                </div>
+                    <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                    <div class="pt-2">
+                    <div class="d-flex justify-content-between pb-1">
+                        <h5 class="text-muted">JavaScript</h5>
+                        <p class="p-0 m-0">75%</p>
+                    </div>
+                </div>
+                    <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                      <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+
+
+                    <div class="pt-2">
+                    <div class="d-flex justify-content-between pb-1">
+                        <h5 class="text-muted">Photoshop</h5>
+                        <p class="p-0 m-0">55%</p>
+                    </div>
+                </div>
+                    <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                      <div class="progress-bar" style="width: 55%"></div>
+                    </div>
+
+
+                   </div>
+                </div>
+                <div class="col-md-6 second-col">
+                    <h2>About me</h2>
+                    <p class="About-second-col py-4 pb-0 mb-0 text-muted text-Bold">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et,
+                        porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan
+                        tincidunt.</p>
+                    <p class="About-second-col py-4 pb-0 mb-0 text-muted text-Bold">Mauris blandit aliquet elit, eget tincidunt nibh
+                        pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula
+                        elementum sed sit amet dui. porttitor at sem.</p>
+                    <p class="About-second-col py-4 pb-0  text-muted text-Bold">Nulla porttitor accumsan tincidunt. Quisque velit nisi,
+                        pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget
+                        tincidunt nibh pulvinar a.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Resume" class="py-5">
+      <div class="resume-header py-2">
+      <h2>Resume</h2>
+      <p class="py-3">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Sumary</h2>
+          <div class="d-flex text-muted overflow-hidden">
+          <i class="fa-regular fa-circle "></i>
+          <div class="px-3 text-1">
+          <h3 class="text-14">Brandon Johnson</h3>
+          <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered
+            digital/print marketing material from initial concept to final, polished deliverable.</p>
+            <ul>
+              <li class="py-1">
+                Portland par 127,Orlando, FL
+              </li>
+              <li class="py-1">
+                (123) 456-7891
+              </li>
+              <li class="py-1">
+                alice.barkley@example.com
+              </li>
+            </ul>
+        </div>
+      </div>
+      <h2>Education</h2>
+      <div class="d-flex text-muted overflow-hidden">
+      <i class="fa-regular fa-circle second-icon"></i>
+      <div class="px-3">
+      <h3 class="text-14">Master of Fine Arts & Graphic Design</h3>
+      <p class="text-black fw-bolder">2015 - 2016</p>
+        <h3 class="text-1">Rochester Institute of Technology, Rochester, NY</h3>
+        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut
+          dignissimos deleniti nerada porti sand markend</p>
+    </div>
+  </div>
+  <div class="d-flex text-muted overflow-hidden">
+    <i class="fa-regular fa-circle third-icon"></i>
+    <div class="px-3">
+    <h3 class="text-14">Bachelor of Fine Arts & Graphic Design</h3>
+    <p class="text-black fw-bolder">2010 - 2014</p>
+      <h3 class="text-1">Rochester Institute of Technology, Rochester, NY</h3>
+      <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae
+        rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+  </div>
+</div>
+  
+        </div>
+        <div class="col-lg-6">
+          <h2>Professional Experience</h2>
+          <div class="d-flex text-muted overflow-hidden">
+          <i class="fa-regular fa-circle forth-icon"></i>
+          <div class="px-3">
+          <h3 class="text-14">Senior graphic design specialist</h3>
+      <p class="text-black fw-bolder">2015 - 2016</p>
+      <h3 class="text-14">Experion, New York, NY</h3>
+          <ul>
+              <li>
+                Lead in the design, development, and implementation of the graphic, layout, and production communication materials
+              </li>
+              <li>
+                Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.
+              </li>
+              <li>
+                Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design
+              </li>
+              <li>
+                Oversee the efficient use of production project budgets ranging from $2,000 - $25,000              </li>
+            </ul>
+        </div>
+      </div>
+      <div class="d-flex text-muted overflow-hidden">
+        <i class="fa-regular fa-circle fifth-icon"></i>
+        <div class="px-3">
+        <h3 class="text-14">Graphic design specialist</h3>
+    <p class="text-black fw-bolder">2017 - 2018</p>
+    <h3 class="text-14">Stepping Stone Advertising, New York, NY</h3>
+        <ul>
+            <li class="py-1">
+              Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).
+            </li>
+            <li class="py-1">
+              Managed up to 5 projects or tasks at a given time while under pressure            </li>
+            <li class="py-1">
+              Recommended and consulted with clients on the most appropriate graphic design
+            </li>
+            <li class="py-1">
+              Created 4+ design presentations and proposals a month for clients and account managers          </ul>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="Services">
+      <div class="header text-center">
+      <h2>Services</h2>
+      <p class="py-3 text-1">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 Col-Content">
+          <div class="service-content bg-light shadow-lg px-4 py-5">
+            <div class="i-content d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-chart-line fa-3"></i>
+          </div>
+          <a href="#" class="stretched-link"><h2 class="py-3">Nesciunt Mete</h2></a>
+          <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et
+            consequatur.</p>
+          </div>
+        </div> 
+
+
+        <div class="col-lg-4 col-md-6 Col-Content">
+          <div class="service-content bg-light shadow-lg px-4 py-5">
+            <div class="i-content d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-tower-broadcast fa-3"></i>      
+              </div>
+          <a href="#" class="stretched-link"><h2 class="py-3">Eosle Commodi</h2></a>
+          <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt
+            dolorem.</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 Col-Content">
+          <div class="service-content bg-light shadow-lg px-4 py-5">
+            <div class="i-content d-flex justify-content-center align-items-center">
+               <i class="fa-solid fa-desktop fa-3"></i>
+              </div>
+          <a href="#" class="stretched-link"><h2 class="py-3">Ledo Markt</h2></a>
+          <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum
+            corrupti.</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 Col-Content">
+          <div class="service-content bg-light shadow-lg px-4 py-5">
+            <div class="i-content d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-box fa-3"></i>
+            </div>
+          <a href="#" class="stretched-link"><h2 class="py-3">Asperiores Commodit</h2></a>
+          <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.
+          </p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 Col-Content">
+          <div class="service-content bg-light shadow-lg px-4 py-5">
+            <div class="i-content d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-calendar-days fa-3"></i>
+            </div>
+          <a href="#" class="stretched-link"><h2 class="py-3">Velit Doloremque</h2></a>
+          <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius
+            labore.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 Col-Content">
+          <div class="service-content bg-light shadow-lg px-4 py-5">
+            <div class="i-content d-flex justify-content-center align-items-center">
+                <i class="fa-regular fa-message fa-3"></i>
+            </div>
+          <a href="#" class="stretched-link"><h2 class="py-3">Dolori Architecto</h2></a>
+          <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus
+            enim.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="stats" class="my-5">
+      <div class="stats-layer">
+
+        <div class="w-100 d-flex align-items-center overlay">
+        <div class="container">
+          <div class="row text-center g-md-5 g-4">
+            <div class="col-lg-3 col-md-6">
+              <h4>232</h4>
+              <p class="text-mut text-1">clients</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4>521</h4>
+              <p class="text-mut text-1">Projects</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4>1453</h4>
+              <p class="text-mut text-1">Hours Of Support</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h4>32</h4>
+              <p class="text-mut text-1">Awards</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Portfolio" class="my-5">
+      <div class="header text-center">
+        <h2>Portfolio</h2>
+        <p class="py-3 text-1">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="portfolio-content">
+        <div class="portfolio-content-header d-flex justify-content-center">
+        <ul class="nav nav-nav mb-3" id="nav-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="nav-All-tab" data-bs-toggle="tab" data-bs-target="#nav-All" type="button" role="tab" aria-controls="nav-All" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="nav-App-tab" data-bs-toggle="tab" data-bs-target="#nav-App" type="button" role="tab" aria-controls="nav-App" aria-selected="false">App</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="nav-Products-tab" data-bs-toggle="tab" data-bs-target="#nav-Products" type="button" role="tab" aria-controls="nav-Products" aria-selected="false">Products</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="nav-Branding-tab" data-bs-toggle="tab" data-bs-target="#nav-Branding" type="button" role="tab" aria-controls="nav-Branding" aria-selected="false">Branding</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="nav-Books-tab" data-bs-toggle="tab" data-bs-target="#nav-Books" type="button" role="tab" aria-controls="nav-Books" aria-selected="false">Books</button>
+          </li>
+        </ul>
+      </div>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-All" role="tabpanel" aria-labelledby="nav-All-tab-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/app-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>App</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/product-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>Product 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/branding-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>branding 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/books-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>book 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/app-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>app 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/product-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>product 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/branding-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>branding 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/books-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>book 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/app-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>app 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/product-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>product 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/branding-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>branding 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/books-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>book 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-App" role="tabpanel" aria-labelledby="nav-App-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/app-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>App 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/app-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>App 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/app-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>App 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-Products" role="tabpanel" aria-labelledby="nav-Products-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/product-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>product 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/product-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>product 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/product-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>product 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-Branding" role="tabpanel" aria-labelledby="nav-Branding-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/branding-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>branding 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/branding-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>branding 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/branding-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>branding 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-Books" role="tabpanel" aria-labelledby="nav-Books-tab" tabindex="0">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/books-1.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>book 1</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/books-2.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>book 2</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-layer">
+                  <img src="imgs/books-3.jpg" class="w-100" alt="">
+                  <div class="tab-content-layer d-flex align-items-center justify-content-between">
+                    <div class="content p-2">
+                      <h4>book 3</h4>
+                      <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    </div>
+                    <div class="icons">
+                      <a href=""><i class="fa-solid fa-magnifying-glass-plus fa-5 text-muted"></i></a>
+                      <a href=""><i class="fa-solid fa-link fa-5 text-muted px-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="Pricing" class="my-5">
+      <div class="header text-center">
+        <h2>Pricing</h2>
+        <p class="py-3 text-1">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container my-5">
+        <div class="row gx-lg-5">
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-between text-1">
+              <h3>Portrait Photography</h3>
+              <p>$160.00</p>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+              <h3>Sports Photography</h3>
+              <p>$200.00</p>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+              <h3>Wedding Photography</h3>
+              <p>$500.00</p>
+            </div>
+            <hr>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-between text-1">
+              <h3>Fashion Photography</h3>
+              <p>$300.00</p>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+              <h3>Still Life Photography</h3>
+              <p>$120.00</p>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+              <h3>Photojournalism</h3>
+              <p>$200.00</p>
+            </div>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="container ">
+        <div class="row gy-5">
+          <div class="col-lg-4 Questions">
+            <h3>Frequently Asked</h3>
+            <h2>Questions</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Duis aute irure dolor in reprehenderit</p>
+          </div>
+          <div class="col-lg-8 Question-lists">
+            <div class="bg-light shadow-lg w-100 my-4 border-0  question-info"id="questionOne">
+              <a class="btn bg-light  w-100 text-start p-3 border-0"  data-bs-toggle="collapse" href="#firstQuestion" role="button" aria-expanded="false" aria-controls="firstQuestion">
+                <div class="d-flex justify-content-between">               
+                 <h2><span style="color: #0078ff;">1.</span> Non consectetur a erat nam at lectus urna duis?</h2>
+                <i class="fa-solid fa-arrow-right px-3 py-2"></i>
+              </div>
+
+              <div class="collapse" id="firstQuestion">
+                <div class="card card-body border-0 bg-light shadow-none">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class="bg-light shadow-lg w-100 my-4 border-0 question-info"id="questiontwo">
+              <a class="btn bg-light  w-100 text-start p-3 border-0"  data-bs-toggle="collapse" href="#secondQuestion" role="button" aria-expanded="false" aria-controls="secondQuestion">
+                <div class="d-flex justify-content-between">               
+                 <h2><span style="color: #0078ff;">2.</span> Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h2>
+                <i class="fa-solid fa-arrow-right px-3 py-2"></i>
+              </div>
+
+              <div class="collapse bg-light" id="secondQuestion">
+                <div class="card card-body border-0 bg-light shadow-none">
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices.
+                  Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                  ultrices eros in cursus turpis massa tincidunt dui.
+                </div>
+              </div>
+            </a>
+            </div>
+
+
+            <div class="bg-light shadow-lg w-100 my-4 border-0 question-info"id="questionThree">
+              <a class="btn bg-light w-100 text-start p-3 border-0"  data-bs-toggle="collapse" href="#thirdQuestion" role="button" aria-expanded="false" aria-controls="thirdQuestion">
+                <div class="d-flex justify-content-between">               
+                 <h2><span style="color: #0078ff;">3.</span> Dolor sit amet consectetur adipiscing elit pellentesque?</h2>
+                <i class="fa-solid fa-arrow-right px-3 py-2"></i>
+              </div>
+
+              <div class="collapse bg-light" id="thirdQuestion">
+                <div class="card card-body border-0 bg-light shadow-none">
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                  nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
+                  convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </div>
+              </div>
+            </a>
+            </div>
+
+            
+            <div class="bg-light shadow-lg w-100 my-3 border-0 question-info"id="questionFour">
+              <a class="btn bg-light  w-100 text-start p-3 border-0"  data-bs-toggle="collapse" href="#ForthQuestion" role="button" aria-expanded="false" aria-controls="ForthQuestion">
+                <div class="d-flex justify-content-between">               
+                 <h2><span style="color: #0078ff;">4.</span> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h2>
+                <i class="fa-solid fa-arrow-right px-3 py-2"></i>
+              </div>
+
+              <div class="collapse bg-light" id="ForthQuestion">
+                <div class="card card-body border-0 bg-light shadow-none">
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices.
+                  Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                  ultrices eros in cursus turpis massa tincidunt dui.
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class="bg-light shadow-lg w-100 my-4 border-0 question-info"id="questionFive">
+              <a class="btn bg-light  w-100 text-start p-3 border-0"  data-bs-toggle="collapse" href="#fifthQuestion" role="button" aria-expanded="false" aria-controls="fifthQuestion">
+                <div class="d-flex justify-content-between">               
+                 <h2><span style="color: #0078ff;">5.</span> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h2>
+                <i class="fa-solid fa-arrow-right px-3 py-2"></i>
+              </div>
+
+              <div class="collapse bg-light" id="fifthQuestion">
+                <div class="card card-body border-0 bg-light shadow-none">
+                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                  viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                </div>
+              </div>
+            </a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="my-5">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide testimonial-layer" data-bs-touch="false">
+        <div class="carousel-indicators pb-4 pb-md-5">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="Carouselbtn active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="Carouselbtn" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="Carouselbtn" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" class="Carouselbtn" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" class="Carouselbtn" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner d-flex pt-3 py-md-5">
+          <div class="carousel-item active text-center " data-bs-interval="10000">
+            
+            <div class="d-flex justify-content-center">
+              <div class="carousel-caption d-block d-md-block text-light  pt-0 mb-2">
+                <div class="carousel-img  pt-5 d-flex justify-content-center align-items-start" >
+              <img src="imgs/testimonials-5.jpg" class=" d-block rounded-circle p-0 pb-2" alt="...">
+            </div>
+              <h2 class="text-14 text-center p-0 m-0 pt-1">John Larson</h2>
+              <p class=" text-point8 text-1 p-0 m-0">Entrepreneur</p>
+              <div class="stars py-2">
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+              </div>
+              <p class="text-1 p-0">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
+                culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="d-flex justify-content-center">
+              <div class="carousel-caption d-block d-md-block text-light  pt-0 mb-2" >
+                <div class="carousel-img  pt-5 d-flex justify-content-center align-items-start" >
+              <img src="imgs/testimonials-1.jpg" class=" d-block rounded-circle p-0 pb-2" alt="...">
+            </div>
+              <h2 class="text-14 text-center p-0 m-0 pt-1">Saul Goodman</h2>
+              <p class=" text-point8 p-0 m-0">Ceo & Founder</p>
+              <div class="stars py-2">
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+              </div>
+              <p class="text-1 p-0">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam,
+                ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="carousel-caption d-block d-md-block text-light  pt-0 mb-2" >
+                <div class="carousel-img  pt-5 d-flex justify-content-center align-items-start" >
+              <img src="imgs/testimonials-3.jpg" class=" d-block rounded-circle p-0 pb-2" alt="...">
+            </div>
+              <h2 class="text-14 text-center p-0 m-0 pt-1">Jena Karlis</h2>
+              <p class="text-point8 text-1 p-0 m-0">Store Owner</p>
+              <div class="stars py-2">
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+              </div>
+              <p class="text-1 p-0">Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                tempor labore quem eram duis noster aute amet eram fore quis sint minim.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="carousel-caption d-block d-md-block text-light  pt-0 mb-2" >
+                <div class="carousel-img  pt-5 d-flex justify-content-center align-items-start" >
+              <img src="imgs/testimonials-2.jpg" class=" d-block rounded-circle p-0 pb-2" alt="...">
+            </div>
+              <h2 class="text-14 text-center p-0 m-0 pt-1">Sara Wilsson</h2>
+              <p class="text-point8 text-1 p-0 m-0">Designer</p>
+              <div class="stars py-2">
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+              </div>
+              <p class="text-1 p-0">Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa..</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="carousel-caption d-block d-md-block text-light  pt-0 mb-2" >
+                <div class="carousel-img  pt-5 d-flex justify-content-center align-items-start" >
+              <img src="imgs/testimonials-4.jpg" class=" d-block rounded-circle p-0 pb-2" alt="...">
+            </div>
+              <h2 class="text-14 text-center p-0 m-0 pt-1">Matt Brandon</h2>
+              <p class="text-point8 text-1 p-0 m-0">Freelancer</p>
+              <div class="stars py-2">
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+                <i class="fa-solid fa-star py-0"></i>
+              </div>
+              <p class="text-1 p-0">Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="Contact">
+      <div class="header text-center">
+        <h2>Contact</h2>
+        <p class="py-3 text-1">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+      <div class="container bg-light shadow-lg">
+        <div class="row">
+          <div class="col-lg-4 Contact-layer">
+            <div class="Contact-details d-flex p-3">
+              <div class="Contact-Icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="px-4">
+            <h3 class="text-1">Address</h3>
+            <p class="">A108 Adam Street, New York, NY 535022</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 Contact-layer">
+            <div class="Contact-details d-flex p-3">
+              <div class="Contact-Icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="px-4">
+            <h3 class="text-1">Call Us</h3>
+            <p class="">+1 5589 55488 55</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 Contact-layer">
+            <div class="Contact-details d-flex p-3">
+            <div class="Contact-Icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="px-4">
+            <h3 class="text-1">Email Us</h3>
+            <p class="">info@example.com</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 bg-light shadow-lg">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="mb-3 pt-4 pb-0 px-md-1 px-2">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="mb-3 pt-md-4 pt-2 pb-0 px-md-1 px-2">
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3 pt-md-1 pt-2 p-4 pb-0 px-2">
+              <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="subject">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3 pt-md-1 pt-2 p-4 pb-0 px-2">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-md-4 my-2 Contact-Btn">
+            <button type="button" class="btn btn-primary px-4 py-2">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="Footer" class="">
+      <h3 class=" text-center py-3 pt-5">© Copyright DevFolio All Rights Reserved</h3>
+      <div class="d-flex justify-content-center">
+      <div class="footer-Icons d-flex justify-content-center align-items-center rounded-circle">
+        <i class="fa-brands fa-x-twitter px-1"></i>
+      </div>
+      <div class="footer-Icons d-flex justify-content-center align-items-center rounded-circle mx-2">
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+      <div class="footer-Icons d-flex justify-content-center align-items-center rounded-circle me-2">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="footer-Icons d-flex justify-content-center align-items-center rounded-circle px-2">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      </div>
+      <p class="text-point8 text-center pt-2 pb-5 m-0"><span class="Design-Text">Designed by</span> BootstrapMade</p>
+    </footer>
+    <script src="JS/index.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>

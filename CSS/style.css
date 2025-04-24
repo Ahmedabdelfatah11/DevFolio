@@ -1,0 +1,564 @@
+
+:root
+{
+    --main-color:#0078ff;
+}
+
+#navbarScroll ul li .nav-link
+{
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Roboto", serif;   
+}
+.nav-item::after
+{
+    content: '';
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+}
+.show
+{
+    background-color: #fff !important;
+    color: black !important;
+}
+.navbar-expand-xl
+{
+    height: 80px;
+}
+#navbarScroll  .dropdown ul li .nav-link
+{
+    color: black;
+} 
+.nav-item
+{
+    padding: 0px 10px;
+}
+.dropdown:hover > .dropdown-menu ,.dropstart:hover > .dropdown-menu 
+{
+    display: block;
+    margin-top: .125em;
+    margin-right: .125em;
+}
+
+.dropstart:hover > .dropdown-menu
+{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    margin-right: .125em;
+    margin-top: .125em;
+
+}
+
+header
+{
+    background-image: url(../imgs/intro-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+header .header-layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+.header-layer h1
+{
+    font-size: 4em;
+}
+#About ul
+{
+    list-style-type:none ;
+    padding: 0;
+}
+#About ul li
+{
+    font-size: 1.1em;
+}
+.text-Bold
+{
+    font-weight: 600;
+}
+#About h5
+{
+    font-size: 15px;
+}
+#About p
+{
+    font-size: 1em;
+}
+
+#About h2
+{
+    position: relative;
+}
+#About h2::after
+{
+    content:'';
+    position: absolute;
+    top: 110%;
+    left: 0;
+  width: 70px;
+  height: 3px;
+  background-color: var(--main-color);
+}
+
+.About-second-col
+{
+    font-size: 18px;
+}
+
+.resume-header h2
+{
+    position: relative;
+}
+.resume-header h2::after
+{
+    content:'';
+    position: absolute;
+    bottom: -15px;
+    left:48% ;
+    background-color: var(--main-color);
+    width: 60px;
+    height: 3px;
+}
+.resume-header
+{
+    text-align: center;
+    font-size: 1em;
+}
+.resume-header p
+{
+    font-size: 1.1em;
+}
+#Resume i
+{
+    color: var(--main-color);
+    position: relative;
+}
+#Resume i::after
+{
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 40%;
+    width: 2px;
+    height: 1000px;
+    background-color: var(--main-color);
+}
+#Resume .second-icon
+{
+    color: var(--main-color);
+    position: relative;
+}
+#Resume .second-icon::after
+{
+    content: '';
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    width: 2px;
+    height: 1000px;
+    background-color: var(--main-color);
+}
+#Resume .third-icon
+{
+    color: var(--main-color);
+    position: relative;
+}
+#Resume .third-icon::after
+{
+    content: '';
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    width: 2px;
+    height: 1000px;
+    background-color: var(--main-color);
+}
+#Resume .forth-icon
+{
+    color: var(--main-color);
+    position: relative;
+}
+#Resume .forth-icon::after
+{
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 2px;
+    height: 1000px;
+    background-color: var(--main-color);
+}
+#Resume .fifth-icon
+{
+    color: var(--main-color);
+    position: relative;
+}
+#Resume .fifth-icon::after
+{
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    width: 2px;
+    height: 1000px;
+    background-color: var(--main-color);
+}
+.text-14
+{
+    font-size: 1.4em;
+}
+.text-1
+{
+    font-size: 1.1em;
+}
+#Resume .container p
+{
+    font-size: 1em;
+}
+
+
+
+/* Services */
+#Services .header h2
+{
+    position: relative;
+}
+#Services .header h2::after
+{
+    content: '';
+    position: absolute;
+    top: 130%;
+    right: 48.3%;
+    width: 50px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+.service-content .i-content
+{
+    width: 60px;
+    height: 60px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+.i-content i
+{
+    color: #fff;
+}
+.service-content a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: .7em;
+    transition: all .6s;
+}
+
+
+.service-content a h2
+{
+    font-size: 2.1em;
+} 
+.service-content p
+{
+    font-size: 1em;
+    line-height: 24px;
+}
+
+#Services .Col-Content
+{
+transition: all .5s;
+}
+#Services .Col-Content:hover
+{
+    cursor: pointer;
+    transform:translateY(-10px) ;
+}
+#Services .service-content
+{
+    border-radius: 15px;
+    border-bottom: solid 7px transparent;
+    transition: all .3s;
+}
+#Services .Col-Content:hover .service-content
+{
+border-bottom: solid 7px  var(--main-color);
+
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+#Services .Col-Content:hover .service-content a
+{
+    color: var(--main-color);
+}
+
+
+/* Stats */
+
+#stats
+{
+    background-image: url(../imgs/counters-bg.jpg);
+    background-position: center;
+    height: 50vh;
+}
+#stats .stats-layer
+{
+    color: #fff;
+    font-weight: 900;
+    z-index: -1;
+    background-color:rgba(34, 51, 238, 0.827);
+    height: 50vh;
+    z-index: 55;
+    width: 100%;
+    height: 100%;
+}
+.text-mut
+{
+    color: #a79c9c;
+}
+#stats .overlay
+{
+   height: 100%; 
+}
+.stats-layer h4,p
+{
+    font-size: 2.5em;
+}
+
+/* Portfolio */
+
+#Portfolio .header h2
+{
+    position: relative;
+}
+#Portfolio .header h2::after
+{
+    content: '';
+    position: absolute;
+    top: 130%;
+    right: 48.3%;
+    width: 50px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+.tab-content-layer .content h4
+{
+    font-size: 1.4em;
+}
+.tab-content-layer .content p
+{
+    font-size: 1em;
+}
+.tab-content-layer
+{
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    bottom: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.847);
+}
+.portfolio-layer
+{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-layer:hover .tab-content-layer
+{
+opacity: 1;
+transform: translateY(-20px);
+}
+
+.portfolio-content .nav-link
+{
+    color: black;
+}
+
+.portfolio-content  .active
+{
+    color: var(--main-color);
+}
+
+
+/* Pricing  */
+
+
+#Pricing .header h2
+{
+    position: relative;
+}
+#Pricing .header h2::after
+{
+    content: '';
+    position: absolute;
+    top: 130%;
+    right: 48.3%;
+    width: 50px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+#Pricing .container h3
+{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#Pricing .container p
+{
+    font-size: 1.2em;
+    color: var(--main-color);
+}
+#Pricing .Questions h3
+{
+    font-size: 1.9em;
+    font-weight: 400;
+}
+#Pricing .Questions p
+{
+    font-size: 1em;
+    font-weight: 400;
+    color: #a79c9c;
+}
+
+#Pricing .Question-lists
+{
+    border: none;
+}
+#Pricing .btn
+{
+border: none;
+}
+.Question-lists h2
+{
+    transition: all .3s;
+    font-size: 1.3em;
+}
+
+#Pricing .question-info:hover  h2
+{
+  color: var(--main-color);
+}
+.Question-lists i
+{
+    transition: all .3s;
+}
+
+#Pricing .question-info a i:hover  i
+{
+  color: var(--main-color);
+}
+
+
+/* testimonial */
+
+#testimonial 
+{
+    background-image: url(../imgs/testimonials-bg.jpg);
+    background-position: center;
+    height: 50%;
+}
+#testimonial .carousel-item img
+{
+    width: 100px;
+    height: 100px;
+    
+    /* position: absolute;
+    top:25%; */
+}
+.testimonial-layer
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(34, 51, 238, 0.827);
+
+}
+#testimonial .stars i
+{
+    color: yellow;
+}
+.carousel-indicators .Carouselbtn
+{
+    width: 10px;
+    height: 10px;
+    color: #fff !important;
+    background-color: #fff !important;
+    border: solid transparent;
+    border-radius:  10px;
+}
+.text-point8
+{
+    font-size: .8em;
+    color: #a79c9c;
+}
+.carousel-inner
+{
+    height: 60vh;
+}
+
+/* Contact */
+#Contact .header h2
+{
+    position: relative;
+}
+#Contact .header h2::after
+{
+    content: '';
+    position: absolute;
+    top: 130%;
+    right: 48.3%;
+    width: 50px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+.Contact-Icon
+{
+    width: 50px;
+    height: 50px;
+    border: solid 1px var(--main-color);
+    color: var(--main-color);
+    transition: all .4s;
+}
+#Contact .Contact-Icon:hover
+{
+    color: #fff;
+    background-color: var(--main-color);
+}
+.Contact-details p
+{
+    font-size: .9em;
+}
+.Contact-Btn .btn
+{
+    border-radius: 40px;
+}
+
+/* Footer */
+#Footer
+{
+ background-color: var(--main-color);   
+}
+.footer-Icons 
+{
+    width: 50px;
+    height: 50px;
+    color: #a79c9c;
+    border: solid 1px #a79c9c;
+    transition: all .4s;
+}
+.footer-Icons:hover
+{
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+}
+.Design-Text
+{
+    color: #fff;
+}
+#Footer h3
+{
+    color: #fff;
+    font-size: .9em;
+}

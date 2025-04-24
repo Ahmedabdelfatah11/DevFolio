@@ -1,0 +1,135 @@
+@media screen and (max-width:600px) {
+
+    #navbarScroll
+    {
+        background-color: #fff;
+    }
+    #navbarScroll ul li .nav-link
+    {
+        font-size: 1rem;
+        color: black;
+        font-family: "Roboto", serif;   
+    }
+    #navbarScroll ul li .nav-link
+{
+    font-size: 1rem;
+    color: black;
+    font-family: "Roboto", serif;   
+}
+    .dropdown-menu
+    {
+        background-color: #fff;
+    }
+    header
+    {
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .dropstart:hover > .dropdown-menu
+    {
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        margin-top: .550em;
+    }
+    .header-layer h1
+    {
+        font-size: 2em;
+    }
+    #stats
+    {
+    background-image: url(../imgs/counters-bg.jpg);
+    background-position: center center;
+    height: 80vh;
+    }
+    #testimonial 
+{
+    background-image: url(../imgs/testimonials-bg.jpg);
+    background-position: center;
+    height: 80vh;
+}
+.carousel-inner
+{
+    height: 70vh;
+}
+
+}
+    @media screen and (min-width:601px) and (max-width:769px) {
+    #navbarScroll
+    {
+        background-color: #fff;
+    }
+    #navbarScroll ul li .nav-link
+    {
+        font-size: 1rem;
+        color: black;
+        font-family: "Roboto", serif;   
+    }
+    #navbarScroll ul li .nav-link
+    {
+        font-size: 1rem;
+        color: black;
+        font-family: "Roboto", serif;   
+    }
+    .dropdown-menu
+    {
+        background-color: #fff;
+    }
+    header
+    {
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .dropstart:hover > .dropdown-menu
+    {
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        margin-top: .550em;
+    }
+    .header-layer h1
+    {
+        font-size: 2em;
+    }
+    #stats
+    {
+    background-image: url(../imgs/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    }
+}
+@media screen and (min-width:770px) and (max-width:991px) {
+    #Services .container .row .Col-Content p
+    {
+        font-size: 14px;
+    }
+    #Services .container .row .Col-Content:first-child p
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #navbarScroll ul li .nav-link
+    {
+        font-size: 1rem;
+        color: black;
+        font-family: "Roboto", serif;   
+    }
+  
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #Services .container .row .Col-Content p
+    {
+        font-size: 15px;
+    }
+    #navbarScroll ul li .nav-link
+    {
+        font-size: 1rem;
+        color: black;
+        font-family: "Roboto", serif;   
+    }
+}
